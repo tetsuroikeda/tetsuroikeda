@@ -1,12 +1,25 @@
 # 池田哲郎
 
-中小企業診断士
+中小企業診断士。山梨県を拠点に、中小企業の補助金・融資・経営改善を支援しています。
+日々の実務で使う道具は自分で作っています。そのうち2本を公開しています。
+
+## 実務でどう使っているか
+
+| 業務 | 入れるもの | 出てくるもの | どう確かめているか |
+|---|---|---|---|
+| 補助金を探す | 所在地・従業員数・使い道 | 受付中の補助金（締切の近い順）と、次の公募の見込み | 締切と上限は、国の補助金サイトのデータと公募要領の本文が一致したものだけを出す |
+| 申請書を作る | 補助金名と、会社の資料（決算書・事業内容など） | 公式様式に記入した申請書の下書きと、審査項目ごとの自己点検 | 金額はコードで計算する。様式は記入しない部分が元のファイルと同じかを機械で比べる |
+| 月次の実績管理 | 会計事務所の試算表（PDF） | 金融機関向けの経営改善計画の実績欄への記入と、確認事項の一覧 | 確定できない数字は入れずに確認事項にする。別の方法でもう一度突き合わせてから確定する（2026年6月から毎月使用） |
+| 事業計画と資金繰り | 決算書・試算表・借入の返済予定表 | 3か年の事業計画（Excel）、月次の予算と実績の比較、資金繰りの見通し | 数字は計算用のコードで出し、できあがった計画は見直し役が別に点検する |
+| 見積と原価 | 品目の一覧と過去の見積、日々の作業記録や領収書の写真 | 見積書の下書き、現場ごとの収支 | 読み取った値は、人が確かめてから保存する |
 
 ## 公開リポジトリ
 
-- [subsidy-brain](https://github.com/tetsuroikeda/subsidy-brain)：補助金の名前から、公募要領に沿った申請書の下書きを作り、公式様式に記入するプロトタイプ（2026年5月・架空の事業者データ）
-- [grant-finder](https://github.com/tetsuroikeda/grant-finder)：事業者の情報に合う補助金を整理し、締切と公募の見込みを知らせるアプリ（2026年6月）
+- [subsidy-brain](https://github.com/tetsuroikeda/subsidy-brain)：補助金の名前から、申請書の下書きを作り公式様式に記入するプロトタイプ（2026年5月・架空の事業者データ）
+- [grant-finder](https://github.com/tetsuroikeda/grant-finder)：事業者に合う補助金を整理し、締切と公募の見込みを知らせるアプリ（2026年6月）
+
+ほかの道具は、顧客の情報を扱うため公開していません。
 
 ---
 
-Certified SME management consultant (*Chusho Kigyo Shindanshi*), Japan.
+Certified SME management consultant (*Chusho Kigyo Shindanshi*) in Yamanashi, Japan. I build the tools I use every day for grant applications, monthly financial monitoring, business plans and cost estimates. Two of them are public.
